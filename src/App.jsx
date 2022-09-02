@@ -19,13 +19,13 @@ function App() {
   }
 
   return (
-   <div className="flex flex-col items-center">
+   <div className="flex flex-col items-center ">
    <input type={'text'}
     className='w-1/3 mx-auto mt-6 bg-white border-2 border-gray-400 text-left self-center'
     placeholder="  Filtrar..."
     onChange={(e)=>setSearch(e.target.value)}/>
 
-    <div className=" flex flex-col items-center md:grid md:gap-4 md:grid-cols-3" > 
+    <div className=" flex flex-col items-center md:grid md:gap-4 md:grid-cols-3 " > 
     
     
 
@@ -46,7 +46,7 @@ function App() {
       image={usuario.picture.large}
       gender={usuario.gender}
       />
-    ))}
+     ))}
      
     </div>
     </div>
